@@ -1,0 +1,147 @@
+//Default stuff...
+ADDON Brick_Arch 
+ADDON Brick_Large_Cubes 
+
+ADDON Support_Player_Persistence
+ADDON Brick_Treasure_Chest 
+
+ADDON Brick_V15 
+ADDON Emote_Alarm 
+ADDON Emote_Confusion 
+ADDON Emote_Hate 
+ADDON Emote_Love 
+ADDON Light_Animated 
+ADDON Light_Basic 
+ADDON Particle_Basic 
+ADDON Particle_FX_Cans 
+ADDON Particle_Player 
+ADDON Particle_Tools 
+ADDON Particle_Grass
+ADDON Player_No_Jet 
+ADDON Print_1x2f_Default
+ADDON Print_2x2f_Default
+ADDON Print_2x2r_Default
+ADDON Print_Letters_Default 
+ADDON Sound_Beeps 
+ADDON Sound_Phone 
+ADDON Sound_Synth4 
+
+ADDON Vehicle_Pirate_Cannon 
+ADDON Vehicle_Tank
+ADDON Weapon_Rocket_Launcher
+ADDON Projectile_GravityRocket
+ADDON Vehicle_Jeep 
+ADDON Vehicle_Horse
+ADDON Vehicle_Rowboat 
+ADDON Weapon_Bow 
+ADDON Weapon_Spear 
+ADDON Weapon_Sword 
+
+ADDON Support_Doors
+ADDON Brick_Doors
+
+ADDON Brick_Halloween
+ADDON Brick_Teledoor
+ADDON Brick_Christmas_Tree
+
+//Kart racing stuff...
+ADDON Brick_ModTer_BasicPack
+ADDON Brick_ModTer_InvertedPack
+ADDON Brick_Modter_4xPack
+ADDON Print_ModTer_Default
+ADDON Event_Camera_Control
+
+//bots
+ADDON Bot_Hole
+ADDON Bot_Blockhead
+
+ADDON Weapon_Gun
+
+//environment
+$EnvGuiServer::SimpleMode 0
+$EnvGuiServer::SkyFile Add-Ons/Sky_Skylands/Skylands.dml
+$EnvGuiServer::WaterFile Add-Ons/Water_Brick/brick.water
+$EnvGuiServer::GroundFile Add-Ons/Ground_Plate/plate.ground
+$EnvGuiServer::SunFlareTopTexture base/lighting/flare2.png
+$EnvGuiServer::SunFlareBottomTexture base/lighting/corona2.png
+$EnvGuiServer::DayOffset 0.1435900032520294
+$EnvGuiServer::DayLength 300
+$EnvGuiServer::DayCycleEnabled 0
+$EnvGuiServer::DayCycle Add-Ons/DayCycle_Default/default.daycycle
+$EnvGuiServer::SunAzimuth 110.2040786743164
+$EnvGuiServer::SunElevation 190
+$EnvGuiServer::DirectLightColor 0.051402 0.028037 0.046729 1.000000
+$EnvGuiServer::AmbientLightColor 0.042056 0.051402 0.060748 1.000000
+$EnvGuiServer::ShadowColor 0.000000 0.018692 0.060748 1.000000
+$EnvGuiServer::SunFlareColor 0.000000 0.000000 0.000000 1.000000
+$EnvGuiServer::SunFlareSize 0
+$EnvGuiServer::VisibleDistance 198.1818237304688
+$EnvGuiServer::FogDistance 0
+$EnvGuiServer::FogHeight 0
+$EnvGuiServer::FogColor 0.046729 0.074766 0.149533 1.000000
+$EnvGuiServer::WaterColor 0.090909 0.272727 0.363636 0.698039
+$EnvGuiServer::WaterHeight 0
+$EnvGuiServer::UnderWaterColor 0.181818 0.454545 0.727273 0.525490
+$EnvGuiServer::SkyColor 0.090909 0.181818 0.272727 1.000000
+$EnvGuiServer::WaterScrollX 0
+$EnvGuiServer::WaterScrollY 0
+$EnvGuiServer::GroundColor 0.000000 0.501961 0.250980 1.000000
+$EnvGuiServer::GroundScrollX 0
+$EnvGuiServer::GroundScrollY 0
+$EnvGuiServer::VignetteMultiply 0
+$EnvGuiServer::VignetteColor 0.000000 0.000000 0.000000 0
+
+
+
+//minigame rules
+$MiniGame::Enabled 1
+$MiniGame::GameColor 0
+$MiniGame::InviteOnly 0
+$MiniGame::IncludeAllPlayersBricks 1
+$MiniGame::PlayersUseOwnBricks 0
+
+$MiniGame::Points_BreakBrick 0
+$MiniGame::Points_PlantBrick 0
+$MiniGame::Points_KillPlayer 1
+$MiniGame::Points_KillBot 1
+$MiniGame::Points_KillSelf	-1
+$MiniGame::Points_Die 0
+   
+$MiniGame::RespawnTime -1
+$MiniGame::VehicleRespawnTime -1
+$MiniGame::BrickRespawnTime 360
+$MiniGame::BotRespawnTime 360
+
+$MiniGame::UseSpawnBricks 1
+$MiniGame::FallingDamage 1
+$MiniGame::WeaponDamage 1
+$MiniGame::SelfDamage 1
+$MiniGame::VehicleDamage 1
+$MiniGame::BrickDamage 1
+$MiniGame::BotDamage 1
+$MiniGame::EnableWand 0
+$MiniGame::EnableBuilding 0
+$MiniGame::EnablePainting 0
+
+$MiniGame::PlayerDataBlockName No-Jet Player
+
+$MiniGame::StartEquipName0 0
+$MiniGame::StartEquipName1 0 
+$MiniGame::StartEquipName2 0
+$MiniGame::StartEquipName3 0
+$MiniGame::StartEquipName4 0
+
+$MiniGame::TimeLimit 240
+
+
+
+//server settings
+$Server::Quota::Schedules 9999
+$Server::Quota::Misc 999
+$Server::Quota::Projectile 999
+$Server::Quota::Item 999
+$Server::Quota::Environment 9999
+$Server::Quota::Player 100
+$Server::Quota::Vehicle 50
+$Server::MaxPhysVehicles_Total 20
+$Server::GhostLimit 65536
